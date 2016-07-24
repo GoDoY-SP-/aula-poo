@@ -1,0 +1,9 @@
+/* Menu FIXED on TOP (importante) */
+body {
+    padding-top: 70px;
+}
+
+/* Tabelas sem borda */
+.borderless > tbody > tr > td, .borderless > tbody > tr > th, .borderless > tfoot > tr > td, .borderless > tfoot > tr > th, .borderless > thead > tr > td, .borderless > thead > tr > th {
+    border: none;
+}

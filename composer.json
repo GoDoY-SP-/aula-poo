@@ -1,0 +1,16 @@
+{
+    "name": "godoy-sp-/aula-poo",
+    "description": "SoN - ORIENTAÇÃO A OBJETOS",
+    "authors": [
+        {
+            "name": "Danilo Godoy",
+            "email": "danilo.doring@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SoNAula\\": "src/SoNAula/"
+        }
+    }
+}
