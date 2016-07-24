@@ -32,13 +32,14 @@ class ClienteServico
             $clienteEntidade = new ClienteEntidade();
 
             // Hidratar entidade
-            $clienteEntidade->setId($i);
-            $clienteEntidade->setNome("Nome de Cliente " . rand(0, 100));
-            $clienteEntidade->setCpf(rand(111111111, 999999999) * 10);
-            $clienteEntidade->setEndereco("Endereço " . rand(0, 100));
-            $clienteEntidade->setBairro("Bairro " . rand(0, 100));
-            $clienteEntidade->setCidade("Cidade " . rand(0, 100));
-            $clienteEntidade->setEstado("SP");
+            $clienteEntidade
+                ->setId($i)
+                ->setNome("Nome de Cliente " . rand(0, 100))
+                ->setCpf(rand(111111111, 999999999) * 10)
+                ->setEndereco("Endereço " . rand(0, 100))
+                ->setBairro("Bairro " . rand(0, 100))
+                ->setCidade("Cidade " . rand(0, 100))
+                ->setEstado("SP");
 
             // Adicionar na coleção
             $clientesColecao->add($clienteEntidade);
